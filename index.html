@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Dojo <HTML></HTML></title>
+    <style>
+        .margin{
+            margin: 0.5rem 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Formulario de Registro</h1>
+        <div>
+            <label for="nombreUser">Nombre:</label>
+            <input type="text" name="nombreUser" id="nombreUser">
+        </div>
+        <div>
+            <label for="apellidoUser">Apellido:</label>
+            <input type="text" name="apellidoUser" id="apellidoUser">
+        </div>
+        <div>
+            <label for="emailUser">Email:</label>
+            <input type="email" name="emailUser" id="emailUser">
+        </div>
+        <div>
+            <label for="passUser">Contraseña:</label>
+            <input type="password" name="passUser" id="passUser">
+        </div>
+        <div>
+            <label for="passRepeat">Confirmar:</label>
+            <input type="password" name="passRepeat" id="passRepeat">
+        </div>
+        <div>
+            <label for="birthdayUser">Cumpleaños:</label>
+            <input type="date" name="birthdayUser" id="birthdayUser">
+        </div>
+        <div class="margin">
+            <label>Género: </label>
+            <div>
+                <label for="Masculino">Masculino</label>
+                <input type="radio" name="genero" id="Masculino">
+                <label for="Femenino">Femenino</label>
+                <input type="radio" name="genero" id="Femenino">
+                <label for="PrefieroNoDecir">Prefiero no decir</label>
+                <input type="radio" name="genero" id="PrefieroNoDecir">
+            </div>
+        </div>
+        <div class="margin">
+            <label for="descUser">Una breve descripción de ti:</label>
+            <div>
+                <textarea name="descUser" id="descUser" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div>
+            <label for="langFavUser">Lenguaje favorito: </label>
+            <select name="langFavUser" id="langFavUser">
+                <option value="1">Javascript</option>
+                <option value="2">HTML</option>
+                <option value="3">CSS</option>
+            </select>
+        </div>
+        <div class="margin">
+            <button>Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
